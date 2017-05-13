@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Trollsystem GPN17 is coming soon...</title>
+        <style>
+            .easteregg {
+                width: 820px;
+                height: 820px;
+                overflow: hidden;
+                border: none 1px;
+            }
+            #hill {
+                background: url('/pic/gpn17/hill.svg');
+                position: absolute;
+                top: 260px;
+                left: 0px;
+                width: 814px;
+                height: 432px;
+            }
+            #troll {
+                -moz-animation-duration: 10s;
+                -moz-animation-name: duck;
+                -moz-animation-direction: alternate;
+                -moz-animation-iteration-count: infinite;
+                -webkit-animation-duration: 10s;
+                -webkit-animation-name: duck;
+                -webkit-animation-direction: alternate;
+                -webkit-animation-iteration-count: infinite;
+                z-index: 10;
+                padding: 0px 247px 0px 247px;
+                width: 320px;
+                height: 280px;
+            }
+            @-moz-keyframes duck {
+              100% {
+                  padding-top: 0px;
+                  padding-left: 247px;
+              }
+              90% {
+                  padding-top: 0px;
+              }
+              50% {
+                  padding-left: 247px;
+              }
+              40% {
+                  padding-top: 250px;
+              }
+              0% {
+                  padding-top: 235px;
+                  padding-left: 235px;
+              }
+            }
+            @-webkit-keyframes duck {
+              100% {
+                  padding-top: 0px;
+                  padding-left: 247px;
+              }
+              90% {
+                  padding-top: 0px;
+              }
+              50% {
+                  padding-left: 247px;
+              }
+              40% {
+                  padding-top: 250px;
+              }
+              0% {
+                  padding-top: 235px;
+                  padding-left: 235px;
+              }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Trollsytem GPN17 is coming soon...</h1>
+	<p>Feel free to <a href='https://shop.entropia.de/entropia/gpn17/'>sign up</a> or <a href='https://frab.cccv.de/en/gpn17/cfp/session/new'>submit a talk</a>!</p>
+        <div class="easteregg">
+            <div><img src="/pic/gpn17/troll.svg" id="troll"><div id="hill"></div></div>
+        </div>
+    </body>
+
+</html>

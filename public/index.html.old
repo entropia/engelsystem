@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>trollsystem</title>
+<style>
+@-webkit-keyframes fadeIcon {
+    0%   { opacity:0;}
+    40%  { opacity:0;}
+    50%  { opacity:1;}
+    60%  { opacity:0;}
+    100% { opacity:0;}
+}
+@-moz-keyframes fadeIcon {
+    0%   { opacity:0;}
+    40%  { opacity:0;}
+    50%  { opacity:1;}
+    60%  { opacity:0;}
+    100% { opacity:0;}
+}
+@keyframes fadeIcon {
+    0%   { opacity:0;}
+    40%  { opacity:0;}
+    50%  { opacity:1;}
+    60%  { opacity:0;}
+    100% { opacity:0;}
+}
+
+.icon {
+  -webkit-animation:fadeIcon linear infinite;
+  -moz-animation:fadeIcon linear infinite;
+  animation:fadeIcon linear infinite;
+
+  -webkit-animation-duration:4s;
+  -moz-animation-duration:4s;
+  animation-duration:4s;
+}
+
+.icon:nth-child(1n+0) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    background: url('/pic/gpn16/logo1_smal.svg') no-repeat left top;
+}
+.icon:nth-child(2n+0) {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    background: url('/pic/gpn16/logo2_smal.svg') no-repeat left top;
+}
+.icon:nth-child(3n+0) {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    background: url('/pic/gpn16/logo3_smal.svg') no-repeat left top;
+}
+.icon:nth-child(4n+0) {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    background: url('/pic/gpn16/logo4_smal.svg') no-repeat left top;
+}
+
+#animation {
+        background-color: #1486cc;
+        background-image: url('/pic/gpn16/background_smal.svg');
+        height: 100px;
+        width: 100px;
+}
+.icon {
+        position: absolute;
+        opacity: 0;
+        height: 100px;
+        width: 100px;
+        background-size: 100% auto;
+}
+
+body {
+	background-image: url("/pic/gpn16/background_smal.svg");
+	background-color: #1488cc;
+	color: #ffffff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.42857;
+}
+</style>
+
+</head>
+<body>
+<div id="animation">
+<div class="icon"></div>
+<div class="icon"></div>
+<div class="icon"></div>
+<div class="icon"></div>
+</div>
+<h1>Wartungsarbeiten</h1>
+<p>das Trollsystem ist momentan deaktiviert.</p>
+<p>Danke fuer deine Unterstuezung auf der <a href="https://entropia.de/GPN16">GPN16</a>.</p>
+<p>Wir hoffen du bist auch 2017 wieder dabei!</p>
+
+
+</body></html>
