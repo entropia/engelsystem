@@ -7,7 +7,7 @@
 function EventConfig_countdown_page($event_config) {
   if ($event_config == null) {
     return div('col-md-12 text-center', [
-        heading(sprintf(_("Welcome to the %s!"), '<span class="icon-icon_angel"></span> ENGELSYSTEM'), 2) 
+        heading(sprintf(_("Welcome to the %s!"), '<span class="icon-icon_angel"></span> TROLLSYSTEM'), 2) 
     ]);
   }
   
@@ -15,7 +15,7 @@ function EventConfig_countdown_page($event_config) {
   
   if ($event_config['event_name'] != null) {
     $elements[] = div('col-sm-12 text-center', [
-        heading(sprintf(_("Welcome to the %s!"), $event_config['event_name'] . ' <span class="icon-icon_angel"></span> ENGELSYSTEM'), 2) 
+        heading(sprintf(_("Welcome to the %s!"), $event_config['event_name'] . ' <span class="icon-icon_angel"></span> TROLLSYSTEM'), 2) 
     ]);
   }
   
