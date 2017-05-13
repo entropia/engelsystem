@@ -1,0 +1,682 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Engelsystem 2.0\n"
+"POT-Creation-Date: 2016-12-23 16:23+0100\n"
+"PO-Revision-Date: 2016-12-23 16:24+0100\n"
+"Last-Translator: msquare <msquare@notrademark.de>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /var/www/trollsystem\n"
+"X-Poedit-SearchPath-1: .\n"
+
+msgid "Angeltypes"
+msgstr "Trolltypes"
+
+msgid "Teams/Job description"
+msgstr "Teams/Job description"
+
+msgid "Angeltype %s deleted."
+msgstr "Trolltype %s deleted."
+
+msgid "Delete angeltype %s"
+msgstr "Delete Trolltype %s"
+
+msgid "Please check the name. Maybe it already exists."
+msgstr "Please check the name. Maybe it already exists."
+
+msgid "Edit %s"
+msgstr "Edit %s"
+
+msgid "Team %s"
+msgstr "Team %s"
+
+msgid "view"
+msgstr "view"
+
+msgid "edit"
+msgstr "edit"
+
+msgid "delete"
+msgstr "delete"
+
+msgid "leave"
+msgstr "leave"
+
+msgid "join"
+msgstr "join"
+
+msgid "Angeltype doesn't exist."
+msgstr "Trolltype doesn't exist."
+
+msgid "Event config"
+msgstr "Event config"
+
+msgid "Please enter buildup start date."
+msgstr "Please enter buildup start date."
+
+msgid "Please enter event start date."
+msgstr "Please enter event start date."
+
+msgid "Please enter event end date."
+msgstr "Please enter event end date."
+
+msgid "Please enter teardown end date."
+msgstr "Please enter teardown end date."
+
+msgid "The buildup start date has to be before the event start date."
+msgstr "The buildup start date has to be before the event start date."
+
+msgid "The event start date has to be before the event end date."
+msgstr "The event start date has to be before the event end date."
+
+msgid "The event end date has to be before the teardown end date."
+msgstr "The event end date has to be before the teardown end date."
+
+msgid "The buildup start date has to be before the teardown end date."
+msgstr "The buildup start date has to be before the teardown end date."
+
+msgid "Settings saved."
+msgstr "Settings saved."
+
+msgid ""
+"You are not allowed to sign up for this shift. Maybe shift is full or "
+"already running."
+msgstr ""
+"You are not allowed to sign up for this shift. Maybe shift is full or "
+"already running."
+
+msgid "You are subscribed. Thank you!"
+msgstr "You are subscribed. Thank you!"
+
+msgid "My shifts"
+msgstr "My shifts"
+
+msgid "Freeloader"
+msgstr "Freeloader"
+
+msgid "Shift entry deleted."
+msgstr "Shift entry deleted."
+
+msgid "Entry not found."
+msgstr "Entry not found."
+
+msgid "Please select a room."
+msgstr "Please select a room."
+
+msgid "Please select a shifttype."
+msgstr "Please select a shifttype."
+
+msgid "Please enter a valid starting time for the shifts."
+msgstr "Please enter a valid starting time for the shifts."
+
+msgid "Please enter a valid ending time for the shifts."
+msgstr "Please enter a valid ending time for the shifts."
+
+msgid "The ending time has to be after the starting time."
+msgstr "The ending time has to be after the starting time."
+
+msgid "Please check your input for needed angels of type %s."
+msgstr "Please check your input for needed Trolls of type %s."
+
+msgid "Shift updated."
+msgstr "Shift updated."
+
+msgid "This page is much more comfortable with javascript."
+msgstr "This page is much more comfortable with javascript."
+
+msgid "Shifttype"
+msgstr "Shifttype"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Room:"
+msgstr "Room:"
+
+msgid "Start:"
+msgstr "Start:"
+
+msgid "End:"
+msgstr "End:"
+
+msgid "Needed angels"
+msgstr "Needed Trolls"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Shift deleted."
+msgstr "Shift deleted."
+
+msgid "Do you want to delete the shift %s from %s to %s?"
+msgstr "Do you want to delete the shift %s from %s to %s?"
+
+msgid "Shift could not be found."
+msgstr "Shift could not be found."
+
+msgid "Shifttype %s deleted."
+msgstr "Shifttype %s deleted."
+
+msgid "Delete shifttype %s"
+msgstr "Delete shifttype %s"
+
+msgid "Shifttype not found."
+msgstr "Shifttype not found."
+
+msgid "Please enter a name."
+msgstr "Please enter a name."
+
+msgid "Updated shifttype."
+msgstr "Updated shifttype."
+
+msgid "Created shifttype."
+msgstr "Created shifttype."
+
+msgid "Shifttypes"
+msgstr "Shifttypes"
+
+msgid "There is %d unconfirmed angeltype."
+msgid_plural "There are %d unconfirmed angeltypes."
+msgstr[0] "There are %d unconfirmed Trolltype."
+msgstr[1] "There is %d unconfirmed Trolltype."
+
+msgid "Angel types which need approvals:"
+msgstr "Troll types which need approvals:"
+
+msgid "You are not allowed to delete all users for this angeltype."
+msgstr "You are not allowed to delete all users for this Trolltype."
+
+msgid "Denied all users for angeltype %s."
+msgstr "Denied all users for Trolltype %s."
+
+msgid "Deny all users"
+msgstr "Deny all users"
+
+msgid "User angeltype doesn't exist."
+msgstr "User Trolltype doesn't exist."
+
+msgid "You are not allowed to confirm all users for this angeltype."
+msgstr "You are not allowed to confirm all users for this Trolltype."
+
+msgid "Confirmed all users for angeltype %s."
+msgstr "Confirmed all users for Trolltype %s."
+
+msgid "Confirm all users"
+msgstr "Confirm all users"
+
+msgid "You are not allowed to confirm this users angeltype."
+msgstr "You are not allowed to confirm this users Trolltype."
+
+msgid "User doesn't exist."
+msgstr "User doesn't exist."
+
+msgid "%s confirmed for angeltype %s."
+msgstr "%s confirmed for Trolltype %s."
+
+msgid "Confirm angeltype for user"
+msgstr "Confirm Trolltype for user"
+
+msgid "You are not allowed to delete this users angeltype."
+msgstr "You are not allowed to delete this users Trolltype."
+
+msgid "User %s removed from %s."
+msgstr "User %s removed from %s."
+
+msgid "Remove angeltype"
+msgstr "Remove Trolltype"
+
+msgid "You are not allowed to set supporter rights."
+msgstr "You are not allowed to set supporter rights."
+
+msgid "No supporter update given."
+msgstr "No supporter update given."
+
+msgid "Added supporter rights for %s to %s."
+msgstr "Added supporter rights for %s to %s."
+
+msgid "Removed supporter rights for %s from %s."
+msgstr "Removed supporter rights for %s from %s."
+
+msgid "Add supporter rights"
+msgstr "Add supporter rights"
+
+msgid "Remove supporter rights"
+msgstr "Remove supporter rights"
+
+msgid "User %s added to %s."
+msgstr "User %s added to %s."
+
+msgid "Add user to angeltype"
+msgstr "Add user to Trolltype"
+
+msgid "You are already a %s."
+msgstr "You are already a %s."
+
+msgid "You joined %s."
+msgstr "You joined %s."
+
+msgid "Become a %s"
+msgstr "Become a %s"
+
+msgid ""
+"You joined an angeltype which requires a driving license. Please edit your "
+"driving license information here: %s."
+msgstr ""
+"You joined an Trolltype which requires a driving license. Please edit your "
+"driving license information here: %s."
+
+msgid "driving license information"
+msgstr "driving license information"
+
+msgid "Your driver license information has been saved."
+msgstr "Your driver license information has been saved."
+
+msgid "Please select at least one driving license."
+msgstr "Please select at least one driving license."
+
+msgid "Your driver license information has been removed."
+msgstr "Your driver license information has been removed."
+
+msgid "Edit %s driving license information"
+msgstr "Edit %s driving license information"
+
+msgid "You cannot delete yourself."
+msgstr "You cannot delete yourself."
+
+msgid "Your password is incorrect.  Please try it again."
+msgstr "Your password is incorrect.  Please try it again."
+
+msgid "User deleted."
+msgstr "User deleted."
+
+msgid "Delete %s"
+msgstr "Delete %s"
+
+msgid "Please enter a valid number of vouchers."
+msgstr "Please enter a valid number of vouchers."
+
+msgid "Saved the number of vouchers."
+msgstr "Saved the number of vouchers."
+
+msgid "%s's vouchers"
+msgstr "%s's vouchers"
+
+msgid "User not found."
+msgstr "User not found."
+
+msgid "All users"
+msgstr "All users"
+
+msgid "Token is not correct."
+msgstr "Token is not correct."
+
+msgid "Your passwords don't match."
+msgstr "Your passwords don't match."
+
+msgid "Your password is to short (please use at least 6 characters)."
+msgstr "Your password is to short (please use at least 6 characters)."
+
+msgid "Password saved."
+msgstr "Password saved."
+
+msgid "E-mail address is not correct."
+msgstr "E-mail address is not correct."
+
+msgid "Please enter your e-mail."
+msgstr "Please enter your e-mail."
+
+msgid "Password recovery"
+msgstr "Password recovery"
+
+msgid "Please visit %s to recover your password."
+msgstr "Please visit %s to recover your password."
+
+msgid "We sent an email containing your password recovery link."
+msgstr "We sent an email containing your password recovery link."
+
+msgid "Hi %s,"
+msgstr "Hi %s,"
+
+msgid "here is a message for you from the engelsystem:"
+msgstr "here is a message for you from the Trolsystem:"
+
+msgid ""
+"This email is autogenerated and has not to be signed. You got this email "
+"because you are registered in the engelsystem."
+msgstr ""
+"This email is autogenerated and has not to be signed. You got this email "
+"because you are registered in the Trollsystem."
+
+msgid "A Shift you are registered on has changed:"
+msgstr "A Shift you are registered on has changed:"
+
+msgid "* Shift type changed from %s to %s"
+msgstr "* Shift type changed from %s to %s"
+
+msgid "* Shift title changed from %s to %s"
+msgstr "* Shift title changed from %s to %s"
+
+msgid "* Shift Start changed from %s to %s"
+msgstr "* Shift Start changed from %s to %s"
+
+msgid "* Shift End changed from %s to %s"
+msgstr "* Shift End changed from %s to %s"
+
+msgid "* Shift Location changed from %s to %s"
+msgstr "* Shift Location changed from %s to %s"
+
+msgid "The updated Shift:"
+msgstr "The updated Shift:"
+
+msgid "Your Shift has changed"
+msgstr "Your Shift has changed"
+
+msgid "A Shift you are registered on was deleted:"
+msgstr "A Shift you are registered on was deleted:"
+
+msgid "Your Shift was deleted"
+msgstr "Your Shift was deleted"
+
+msgid "You have been assigned to a Shift:"
+msgstr "You have been assigned to a Shift:"
+
+msgid "Assigned to Shift"
+msgstr "Assigned to Shift"
+
+msgid "You have been removed from a Shift:"
+msgstr "You have been removed from a Shift:"
+
+msgid "Removed from Shift"
+msgstr "Removed from Shift"
+
+msgid "Your account has been deleted"
+msgstr "Your account has been deleted"
+
+msgid ""
+"Your angelsystem account has been deleted. If you have any questions "
+"regarding your account deletion, please contact heaven."
+msgstr ""
+"Your Trollsystem account has been deleted. If you have any questions "
+"regarding your account deletion, please contact heaven."
+
+msgid "Active angels"
+msgstr "Active Trolls"
+
+msgid ""
+"At least %s angels are forced to be active. The number has to be greater."
+msgstr ""
+"At least %s Trolls are forced to be active. The number has to be greater."
+
+msgid "Please enter a number of angels to be marked as active."
+msgstr "Please enter a number of Trolls to be marked as active."
+
+msgid "Marked angels."
+msgstr "Marked Trolls."
+
+msgid "back"
+msgstr "back"
+
+msgid "apply"
+msgstr "apply"
+
+msgid "Angel has been marked as active."
+msgstr "Troll has been marked as active."
+
+msgid "Angel not found."
+msgstr "Troll not found."
+
+msgid "Angel has been marked as not active."
+msgstr "Troll has been marked as not active."
+
+msgid "Angel has got a t-shirt."
+msgstr "Troll has got a t-shirt."
+
+msgid "Angel has got no t-shirt."
+msgstr "Troll has got no t-shirt."
+
+msgid "set active"
+msgstr "set active"
+
+msgid "remove active"
+msgstr "remove active"
+
+msgid "got t-shirt"
+msgstr "got t-shirt"
+
+msgid "remove t-shirt"
+msgstr "remove t-shirt"
+
+msgid "Sum"
+msgstr "Sum"
+
+msgid "Search angel:"
+msgstr "Search Troll:"
+
+msgid "Show all shifts"
+msgstr "Show all shifts"
+
+msgid "Search"
+msgstr "Search"
+
+msgid "How much angels should be active?"
+msgstr "How much Trolls should be active?"
+
+msgid "Preview"
+msgstr "Preview"
+
+msgid "Nickname"
+msgstr "Nickname"
+
+msgid "Size"
+msgstr "Size"
+
+msgid "Shifts"
+msgstr "Shifts"
+
+msgid "Length"
+msgstr "Length"
+
+msgid "Active?"
+msgstr "Active?"
+
+msgid "Forced"
+msgstr "Forced"
+
+msgid "T-shirt?"
+msgstr "T-shirt?"
+
+msgid "Shirt statistics"
+msgstr "Shirt statistics"
+
+msgid "Needed shirts"
+msgstr "Needed shirts"
+
+msgid "Given shirts"
+msgstr "Given shirts"
+
+msgid "Arrived angels"
+msgstr "Arrived angels"
+
+msgid "Reset done. Angel has not arrived."
+msgstr "Reset done. Troll has not arrived."
+
+msgid "Angel has been marked as arrived."
+msgstr "Troll has been marked as arrived."
+
+msgid "yes"
+msgstr "yes"
+
+msgid "reset"
+msgstr "reset"
+
+msgid "arrived"
+msgstr "arrived"
+
+msgid "Planned arrival"
+msgstr "Planned arrival"
+
+msgid "Arrived?"
+msgstr "Arrived?"
+
+msgid "Arrival date"
+msgstr "Arrival date"
+
+msgid "Planned departure"
+msgstr "Planned departure"
+
+msgid "Planned arrival statistics"
+msgstr "Planned arrival statistics"
+
+msgid "arrived sum"
+msgstr "arrived sum"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Count"
+msgstr "Count"
+
+msgid "Arrival statistics"
+msgstr "Arrival statistics"
+
+msgid "Planned departure statistics"
+msgstr "Planned departure statistics"
+
+msgid "Free angels"
+msgstr "Free Trolls"
+
+msgid "Angeltype"
+msgstr "Trolltype"
+
+msgid "Only confirmed"
+msgstr "Only confirmed"
+
+msgid "Nick"
+msgstr "Nick"
+
+msgid "DECT"
+msgstr "DECT"
+
+msgid "Jabber"
+msgstr "Jabber"
+
+msgid "E-Mail"
+msgstr "E-Mail"
+
+msgid "Grouprights"
+msgstr "Grouprights"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Privileges"
+msgstr "Privileges"
+
+msgid "Edit group"
+msgstr "Edit group"
+
+msgid "Frab import"
+msgstr "Frab import"
+
+msgid "Webserver has no write-permission on import directory."
+msgstr "Webserver has no write-permission on import directory."
+
+msgid "Please select a shift type."
+msgstr "Please select a shift type."
+
+msgid "Please enter an amount of minutes to add to a talk's begin."
+msgstr "Please enter an amount of minutes to add to a talk's begin."
+
+msgid "Please enter an amount of minutes to add to a talk's end."
+msgstr "Please enter an amount of minutes to add to a talk's end."
+
+msgid "No valid xml/xcal file provided."
+msgstr "No valid xml/xcal file provided."
+
+msgid "File upload went wrong."
+msgstr "File upload went wrong."
+
+msgid "Please provide some data."
+msgstr "Please provide some data."
+
+msgid "File Upload"
+msgstr "File Upload"
+
+msgid "Validation"
+msgstr "Validation"
+
+msgid "Import"
+msgstr "Import"
+
+msgid ""
+"This import will create/update/delete rooms and shifts by given FRAB-export "
+"file. The needed file format is xcal."
+msgstr ""
+"This import will create/update/delete rooms and shifts by given FRAB-export "
+"file. The needed file format is xcal."
+
+msgid "Add minutes to start"
+msgstr "Add minutes to start"
+
+
+msgid "Needed angels:"
+msgstr "Needed Trolls:"
+
+msgid "Please check the needed angels for team %s."
+msgstr "Please check the needed Trolls for team %s."
+
+
+msgid "All Angels"
+msgstr "All Trolls"
+
+msgid "Angel registration successful!"
+msgstr "Troll registration successful!"
+
+msgid ""
+"By completing this form you're registering as a Chaos-Angel. This script "
+"will create you an account in the angel task scheduler."
+msgstr ""
+"By completing this form you're registering as a Chaos-Troll. This script "
+"will create you an account in the angel task scheduler."
+
+msgid ""
+"The engelsystem is allowed to send me an email (e.g. when my shifts change)"
+msgstr ""
+"The Trollsystem is allowed to send me an email (e.g. when my shifts change)"
+
+msgid "Hello %s, here can you leave messages for other angels"
+msgstr "Hello %s, here can you leave messages for other Trolls"
+
+msgid ""
+"The tasks shown here are influenced by the angeltypes you joined already!"
+msgstr ""
+"The tasks shown here are influenced by the Trolltypes you joined already!"
+
+
+msgid "Do you want to delete angeltype %s?"
+msgstr "Do you want to delete Trolltype %s?"
+
+msgid ""
+"This angeltype requires a driver license. Please enter your driver license "
+"information!"
+msgstr ""
+"This Trolltype requires a driver license. Please enter your driver license "
+"information!"
+
+msgid "New angeltype"
+msgstr "New Trolltype"
+
+msgid "Angel:"
+msgstr "Troll:"
+
+msgid "Angel should receive at least  %d vouchers."
+msgstr "Troll should receive at least  %d vouchers."
+
