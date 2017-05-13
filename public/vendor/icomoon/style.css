@@ -24,5 +24,12 @@
 }
 
 .icon-icon_angel:before {
-	content: "\e600";
+	content: "\00a0";
 }
+.icon-icon_angel {
+	background: url('/pic/gpn17/troll.svg') no-repeat;
+	padding-right: 1em;
+	text-decoration: none;
+#	content: "\e600";
+}
+
