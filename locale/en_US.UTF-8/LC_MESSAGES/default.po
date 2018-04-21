@@ -1999,7 +1999,7 @@ msgstr "Neuer Engeltyp"
 
 #: /Users/msquare/workspace/projects/engelsystem/includes/view/AngelTypes_view.php:270
 msgid "Self Sign Up Allowed"
-msgstr "Kein Selbst-Eintragen erlaubt"
+msgstr "Selbst-Eintragen erlaubt"
 
 #: /Users/msquare/workspace/projects/engelsystem/includes/view/AngelTypes_view.php:271
 msgid "Membership"

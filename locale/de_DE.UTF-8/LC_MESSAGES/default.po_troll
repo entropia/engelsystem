@@ -1882,7 +1882,7 @@ msgstr "Beschränkt"
 
 #: /var/www/trollsystem/includes/view/AngelTypes_view.php:68
 msgid "No Self Sign Up"
-msgstr "Kein Selbst-Eintragen"
+msgstr "Selbst-Eintragen nicht erlaubt"
 
 #: /var/www/trollsystem/includes/view/AngelTypes_view.php:69
 msgid "Requires driver license"
@@ -1999,7 +1999,7 @@ msgstr "Neuer Trolltyp"
 
 #: /var/www/trollsystem/includes/view/AngelTypes_view.php:270
 msgid "Self Sign Up Allowed"
-msgstr "Kein Selbst-Eintragen erlaubt"
+msgstr "Selbst-Eintragen erlaubt"
 
 #: /var/www/trollsystem/includes/view/AngelTypes_view.php:271
 msgid "Membership"

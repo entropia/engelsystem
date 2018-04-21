@@ -1,4 +1,9 @@
 <script type="text/javascript">
+	function set_all_day() {
+		document.getElementById('start_time').value = '00:00';
+		document.getElementById('end_time').value = '23:59';
+		document.getElementById('end_day').value = document.getElementById('start_day').value;
+	}
 	function set_to_now(id) {
 		document.getElementById(id + '_time').value = moment().format('HH:mm');
 		var days = document.getElementById(id + '_day').getElementsByTagName(
@@ -33,6 +38,15 @@
           <div class="input-group-btn">
             <button class="btn btn-default" title="Now" type="button" onclick="set_to_now('end');">
               <span class="glyphicon glyphicon-time"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-btn">
+            <button class="btn btn-default" title="Now" type="button" onclick="set_all_day();">
+              <span class="glyphicon glyphicon-time"> 0-24h</span>
             </button>
           </div>
         </div>
