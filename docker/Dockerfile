@@ -47,7 +47,7 @@ RUN apk add --no-cache icu-dev nginx && \
 COPY docker/entrypoint.sh /
 COPY docker/nginx.conf /etc/nginx/nginx.conf
 ENTRYPOINT /entrypoint.sh
-EXPOSE 80
+EXPOSE 8080
 COPY --from=data /app/ /var/www
 RUN chown -R www-data:www-data /var/www/storage/ && \
     rm -r /var/www/html
